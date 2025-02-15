@@ -39,7 +39,7 @@ const SignUp = () => {
         const signUpData = { name, email, password };
 
         try {
-            const response = await fetch('http://localhost:3001/user/signup', {
+            const response = await fetch('https://clothingstore-backend-ncru.onrender.com/user/signup', {
                 method: 'POST',
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(signUpData),
