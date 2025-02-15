@@ -1,0 +1,56 @@
+
+
+
+/* Initially hidden */
+.best-seller-container {
+    width: 100%;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+}
+
+/* When the component becomes visible */
+.best-seller-container.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Product Items Animation */
+.best-seller-products img {
+    width: 290px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, opacity 1.5s ease-in-out;
+    opacity: 0;
+    transform: scale(0.9);
+}
+
+.best-seller-container.visible .best-seller-products img {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.best-seller-products img:hover {
+    transform: scale(1.03);
+}
+
+
+
+.best-seller-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.best-seller-products {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+    margin:0 auto;
+    max-width: 1000px;
+    flex-wrap: wrap;
+}

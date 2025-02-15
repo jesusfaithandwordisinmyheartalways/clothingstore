@@ -1,0 +1,201 @@
+
+
+
+
+
+
+
+
+.place-order-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+.place-order-main-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1500px;
+}
+
+
+.place-left-order--wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    height: 499px;
+    align-items:center;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+
+
+.form-wrapper  {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    position: relative;
+    top:0px;
+    left: px;
+    width: 550px;
+}
+
+
+
+
+
+.form-wrapper input{
+    padding: 0.9em;
+    width: 200px;
+    text-align: center;
+    color:black; 
+}   
+
+
+
+
+
+
+
+
+
+
+
+.place-right-order-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    font-size: 1rem;
+    width: 450px;
+    position: relative;
+    top:0px;
+    left: -90px;
+
+}
+
+
+
+
+
+.cart-total {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top:0px;
+    left: -180px;
+}
+
+
+
+.payment-method {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    position: relative;
+    left: -40px;
+    top:23px
+}
+
+
+
+
+
+.place-order-user-checkout {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.subtotal p {
+    cursor: pointer;
+}
+
+.subtotal img {
+    width: 40px;
+    object-fit: contain;
+}
+
+
+
+.place-right-order-wrapper span {
+    color:grey
+}
+
+
+.title {
+    font-size: 0.4rem;
+
+}
+
+
+
+
+
+
+
+.place-order-btn {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+   
+}
+
+
+
+.place-order-btn {
+    position: relative;
+    top:31px;
+    left: 31px;
+    background:black;
+    color:white;
+    border:none;
+    outline: none;
+    cursor: pointer;
+   
+
+}
+
+
+
+
+
+
+.pay-pal-btn {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    position: relative;
+    top:25px;
+    left: -40px;
+    text-align: center;
+}
+
+
+.pay-pal-btn button {
+    background:gold;
+    color:black;
+    border:none;
+    outline: none;
+    padding:1em;
+    cursor: pointer;
+    width: 110px;
+}

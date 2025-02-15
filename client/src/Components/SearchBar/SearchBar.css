@@ -1,0 +1,75 @@
+
+
+
+
+
+
+
+
+.search-input-container {
+    width: 80%;
+    overflow: hidden;
+    background: rgba(211, 211, 211, 0.15);
+    margin: 0 auto;
+   
+
+    
+}
+
+
+
+.search-input-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+
+.search-input-wrapper input{
+    text-align: center;
+    font-size: 0.9rem;
+    color: black;
+    font-family: "Oak", "Maple", "Pine", "Sycamore", "Willow";
+    border-radius: 10px;
+    width: 510px;
+    padding:0.8em
+}
+
+
+
+.search-input-wrapper img {
+    width: 15px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+
+.image {
+    position: relative;
+    top:0px;
+    left: -25px;
+}
+
+.input-user {
+    position: relative;
+    top:15px
+}
+
+
+
+.image-two {
+    position: relative;
+    top:-20px;
+    left: 850px;
+  
+}
+
+
+.image-two img {
+    width: 15px;
+    object-fit: contain;
+    cursor: pointer;
+}

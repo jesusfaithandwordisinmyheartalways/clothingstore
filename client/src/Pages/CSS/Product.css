@@ -1,0 +1,278 @@
+
+
+
+
+
+
+
+.product-container {
+    width: 100%;
+    overflow: hidden;
+   
+}
+
+
+.product-wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    height: 650px;
+}
+
+
+
+
+.image-section-left-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    position: relative;
+    top:0px;
+    left: 50px;
+
+}
+
+
+.image-section-left-wrapper img {
+    width: 80px;
+    object-fit: contain;
+}
+
+
+
+
+
+
+.main-image-wrapper {
+    position: relative;
+    top:-10px;
+    left: 9px;
+    margin: 0 auto;
+}
+
+
+.main-image-wrapper img {
+    width: 410px;
+    object-fit: contain;
+}
+
+
+
+
+.product-right-side-section-wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 490px;
+    height: auto;
+    flex-direction: column;
+    position: relative;
+    top:-8px;
+    left: -90px;
+}
+
+
+.product-name {
+    font-size: 0.7rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+
+
+.price {
+    font-size: 1.4rem;
+    font-family: 'Times New Roman', Times, serif;
+    color:purple;
+    position: relative;
+    top:0px;
+    left: -150px;
+}
+
+
+.description {
+    position: relative;
+    top:0px;
+    left: -30px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 390px;
+    text-align: center;
+}
+
+
+.size-selection-wrapper {
+    position: relative;
+    top:0px;
+    left: -150px;
+    color:black;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+
+.size-selection-wrapper select {
+    width: 110px;
+    text-align: center;
+    background:rgb(103, 82, 43);
+    border-radius: 13px;
+    font-size: 1rem;
+    color:whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.add-to-cart {
+    position: relative;
+    top:30px;
+    left: -60px;
+    display: flex;
+    margin:0 auto;
+    align-items:center;
+    justify-content: center;
+
+}
+
+
+.add-to-cart button {
+    background:darkgreen;
+    padding:1em;
+    border:none;
+    outline:none;
+    color:white;
+    cursor: pointer;
+    width: 210px;
+}
+
+
+
+.add-to-cart button:focus {
+    background:white;
+    color:green
+}
+
+
+.add-to-cart button:not(:active){
+    background:darkgreen;
+    color:white;
+}
+
+
+.original-product {
+    position: relative;
+    top:90px;
+    left: -150px;
+    margin:0 auto;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+.product-available {
+    margin:0 auto;
+    position: relative;
+    top:80px;
+    left: -80px;;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+.exchange {
+    margin:0 auto;
+    position: relative;
+    top:70px;
+    left: -75px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+.related-product-product-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1300px;
+    position: relative;
+    top:-10px;
+    text-align: center;
+}
+
+
+
+.related-product-product-wrapper img {
+    width: 190px;
+    object-fit: contain;
+}
+
+
+
+
+
+
+
+
+
+/* Apply fade-in animation to the entire container */
+.product-container {
+    width: 100%;
+    overflow: hidden;
+    animation: fade-in 4s ease-in-out;
+}
+
+/* Left Side Animation */
+.product-right-side-section-wrapper {
+    opacity: 0;
+    transform: translateX(-50px);
+    animation: slide-in-left 1.5s ease-in-out forwards;
+}
+
+/* Right Side Animation */
+.main-image-wrapper {
+    opacity: 0;
+    transform: translateX(50px);
+    animation: slide-in-right 1.5s ease-in-out forwards;
+}
+
+/* Keyframes */
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in-left {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide-in-right {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

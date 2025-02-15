@@ -1,0 +1,79 @@
+
+
+
+
+
+
+
+
+
+.newsletter-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+.newsletter-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1000px;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
+
+.newsletter-wrapper-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1000px;
+    font-size: 1rem;
+    color:slategrey;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+
+
+
+
+.newsletter-wrapper-three {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1000px;
+
+}
+
+
+.newsletter-wrapper-three input {
+    padding: 1em;
+    border:none;
+    outline: none;
+    outline: 1px solid green;
+    text-align: center;
+}
+
+
+
+
+.newsletter-wrapper-three button {
+    padding: 1em;
+    border:none;
+    outline: none;
+    outline: 1px solid green;
+    background: green;
+    color:white;
+    text-align: center;
+}

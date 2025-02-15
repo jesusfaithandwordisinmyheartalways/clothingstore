@@ -1,0 +1,41 @@
+
+
+
+
+
+
+
+
+
+.related-product-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+.related-product-wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1000px;
+    
+}
+
+
+
+.related-product-wrapper-two {
+    display: flex;
+    flex-direction: row;
+    gap:34px;
+    align-items:center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 550px;
+}
+
+.related-product-wrapper-two img {
+    width: 240px;
+    object-fit: contain;
+}

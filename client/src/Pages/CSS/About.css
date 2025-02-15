@@ -1,0 +1,43 @@
+
+
+
+
+
+
+
+
+
+
+.about-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+.about-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+
+
+.about-wrapper-two {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 1000px;
+    gap:90px
+}
+
+
+
+.about-wrapper-two img {
+    width: 390px;
+    object-fit: contain;
+}

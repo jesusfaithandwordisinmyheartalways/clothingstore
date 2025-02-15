@@ -1,0 +1,57 @@
+
+
+
+
+
+
+
+
+
+
+.signup-form-container {
+    width: 100%;
+    overflow: hidden;
+ 
+  
+  
+
+}
+
+
+
+.signup-form-wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+    border:1px solid black;
+    max-width: 550px;
+    height: 310px;
+    text-align: center;
+
+
+}
+
+
+
+.signup-form-wrapper input {
+    margin:4px;
+    padding:0.7em;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.9rem;
+    width: 450px;
+    text-align: center;
+}
+
+
+.signup-form-wrapper button {
+    background: black;
+    color:white;
+    border:none;
+    outline: none;
+    padding:1em;
+    width: 450px;
+    cursor: pointer;
+    
+}

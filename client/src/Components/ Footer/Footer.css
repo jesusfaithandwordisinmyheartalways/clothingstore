@@ -1,0 +1,72 @@
+
+
+
+
+
+
+
+
+
+.footer-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+.footer-wrapper {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin:0 auto;
+    max-width: 1500px;
+
+}
+
+
+
+.footer-wrapper img {
+    width: 150px;
+    object-fit: contain;
+}
+
+.footer-wrapper p {
+    width: 310px;
+    font-size: 0.9rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.footer-wrapper h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+}
+
+
+.company-footer {
+    position: relative;
+    top:30px
+}
+
+
+
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1500px;
+}
+
+
+.copyright-hr-tag {
+    width: 100%;
+}
+
+
+.copyright p {
+    font-size: 0.9rem;
+    font-family: 'Times New Roman', Times, serif;
+}

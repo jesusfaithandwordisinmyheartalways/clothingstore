@@ -1,0 +1,23 @@
+
+
+
+node_modules/
+
+# 📌 Ignore environment variables
+.env
+
+# 📌 Ignore logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 📌 Ignore OS and editor-specific files
+.DS_Store
+.vscode/
+
+# 📌 Ignore temporary and build files
+tmp/
+dist/
+coverage/

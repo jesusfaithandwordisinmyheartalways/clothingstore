@@ -1,0 +1,52 @@
+
+
+
+
+
+
+
+
+.contact-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.contact-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+
+
+
+.contact-wrapper-two {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 1000px;
+    gap:90px
+}
+
+
+
+.contact-wrapper-two img {
+    width: 430px;
+    object-fit: contain;
+}
+
+
+
+.contact-wrapper-two button {
+    padding:1em;
+    border:none;
+    outline: none;
+    background: green;
+    color:white;
+    text-align: center;
+}

@@ -1,0 +1,103 @@
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.hero-container {
+    width: 70%;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    animation: fade-in 4s ease-in-out;
+}
+
+.hero-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 1500px;
+    border: 1px solid black;
+}
+
+/* Left Side Animation */
+.hero-left-side {
+    opacity: 0;
+    transform: translateX(-50px);
+    animation: slide-in-left 1.5s ease-in-out forwards;
+}
+
+/* Right Side Animation */
+.hero-right-side {
+    opacity: 0;
+    transform: translateX(50px);
+    animation: slide-in-right 1.5s ease-in-out forwards;
+}
+
+.hero-right-side img {
+    mix-blend-mode: multiply;
+    background: transparent;
+    width: 490px;
+}
+
+/* Header Styles */
+.h-tag {
+    width: 90px;
+    position: relative;
+    top: 30px;
+    left: 180px;
+}
+
+.latest {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.left-header {
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h-tag-two {
+    width: 90px;
+    position: relative;
+    top: -27px;
+    left: 110px;
+}
+
+/* Keyframes */
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in-left {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide-in-right {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

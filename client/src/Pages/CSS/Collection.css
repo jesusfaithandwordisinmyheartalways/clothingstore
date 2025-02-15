@@ -1,0 +1,194 @@
+
+
+
+
+
+
+
+
+.collection-container {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+
+.wrapper-left {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 1500px;
+}
+
+
+
+.select select {
+    background: whitesmoke;
+    color:black;
+    padding: 1em;
+    text-align: center;
+    border:none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+.collection-container-two {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+.left-side-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: flex-start;
+    gap:9px;
+    margin:0 auto;
+    max-width: 310px;
+    position: relative;
+    top:0px;
+    left: -510px;
+    gap:30px
+}
+
+
+.left-side-wrapper h3 {
+    text-align: center;
+}
+
+
+
+
+
+
+.middle-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    margin: 0 auto;
+    position: relative;
+    top:-270px;
+    left: 140px;
+    gap:10px;
+    max-width: 935px;
+}
+
+
+
+.middle-wrapper img {
+    width: 210px;
+    object-fit: contain;
+}
+
+
+
+.CATEGORIES {
+    border:1px solid grey;
+    width: 100%;
+    text-align: left;
+}
+
+
+.TYPE {
+    border:1px solid grey;
+    width: 100%;
+    text-align: left;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.collection-container {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    animation: fade-in 4s ease-in-out;
+}
+
+/* Apply left-side animation */
+.left-side-wrapper {
+    opacity: 0;
+    transform: translateX(-50px);
+    animation: slide-in-left 1.5s ease-in-out forwards;
+}
+
+/* Apply right-side animation */
+.middle-wrapper {
+    opacity: 0;
+    transform: translateX(50px);
+    animation: slide-in-right 1.5s ease-in-out forwards;
+}
+
+/* Select Dropdown */
+.select select {
+    background: whitesmoke;
+    color: black;
+    padding: 1em;
+    text-align: center;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Collection container */
+.collection-container-two {
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Category and type filters */
+.CATEGORIES, .TYPE {
+    border: 1px solid grey;
+    width: 100%;
+    text-align: left;
+}
+
+/* Keyframe Animations */
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in-left {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide-in-right {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
