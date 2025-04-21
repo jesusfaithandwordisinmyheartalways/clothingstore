@@ -6,15 +6,15 @@ secure cookie storage, PayPal payment integration, environment variable protecti
 
 FEATURES:
   1 	MongoDB Connection Security – Uses environment variables (MONGODB_URI) to securely manage database credentials, preventing exposure in source code.
-	2.	Environment Variables Protection – Implements dotenv to securely store API keys, secrets, and credentials, reducing security risks.
-	3.	Password Hashing – Uses bcrypt to securely hash passwords before storing them in the database, preventing plaintext password leaks.
-	4.	JWT Authentication – Implements jsonwebtoken to generate secure, expiring tokens for user authentication, preventing session hijacking.
-	5.	Secure Cookie Storage – Stores authentication tokens in HTTP-only, secure, and same-site restricted cookies to prevent XSS and CSRF attacks.
-	6.	User Input Validation – Validates name, email, and password using regex to prevent invalid or malicious user inputs.
-	7.	Brute Force Protection – Tracks failed login attempts to prevent brute-force attacks and unauthorized access.
-	8.	Secure Payment Integration – Configures PayPal SDK with client_id and client_secret stored in environment variables, protecting financial transactions.
-	9.	Order Data Validation – Ensures orders contain valid structure before processing, preventing malformed or fraudulent requests.
-	10.	Error Handling & Logging – Implements structured error handling to prevent sensitive data leaks in API responses while logging errors for debugging.
+	2.	Environment Variables Protection –
+	3.	Password Hashing – 
+	4.	JWT Authentication – 
+	5.	Secure Cookie Storage – 
+	6.	User Input Validation – 
+	7.	Brute Force Protection – 
+	8.	Secure Payment Integration – 
+	9.	Order Data Validation – 
+	10.	Error Handling & Logging – 
 
 
 
